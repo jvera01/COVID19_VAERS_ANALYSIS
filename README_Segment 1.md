@@ -1,6 +1,6 @@
 # COVID19_VAERS_ANALYSIS
 
-![](Resources/B2.PNG)
+![](Resources/B5.PNG)
 
 # Overview of the COVID19 VAERS_ANALYSIS
 
@@ -25,7 +25,7 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 
 
 ## Data Description - VAERS Data
-![](Resources/B1.PNG)
+![](Resources/B2.PNG)
 
 We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program or by using the CDC WONDER online search tool. Information provided to VAERS that identifies a person who received the vaccine or vaccines will not be available to the public. De-identified VAERS data are available 4-6 weeks after the report is received. VAERS data change as new reports are received, so your results may change if you repeat the same search at a later date. 
 
@@ -37,6 +37,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 
 ## Resources - The technologies used for this project includes:
+![](Resources/B4.PNG)
 
 - Python & Pandas library
 - Pg Admin PostgresSQL
