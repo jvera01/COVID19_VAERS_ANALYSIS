@@ -37,7 +37,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 
 ## Resources - The technologies used for this project includes:
-![](Resources/B4.PNG)
+![](Resources/DataTech.jpeg)
 
 - Python & Pandas library
 - Pg Admin PostgresSQL
@@ -53,6 +53,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 ## Database Diagram DBD
 
+![](Resources/COVID_VAERS_ ERDs.png)
 
 ## Team Members - Rules and Expectations:
 
