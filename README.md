@@ -23,6 +23,8 @@ Which Covid-19 vaccine is the most optimal based on your demographic?
 
 ## Machine Learning Classification ideas:
 
+Predict the chances of a patient to get (X) symptoms for (Y) Vaccine
+
 * Take a limited list of the most common symptoms, and convert them into numbers
 * Catagorize them based off of which vaccine
 * Find the most dense amount of cases based on age
