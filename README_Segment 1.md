@@ -51,7 +51,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Find the most dense amount of cases based on age
 - Predict for male/female/other
 
-## Database Diagram DBD
+## Diagram DBD database structure
 
 ![](Resources/COVID_VAERS_ ERDs.png)
 
@@ -64,7 +64,8 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Jesus M Vera
 - Justin Livingston
 
-## Rules & Expectations 
+## Rules & Expectations - Description of the communication protocols 
+
 
 - Rule # 1 Teamwork makes the dream works
 - Rule # 2 Team meetings will be scheduled, and invitations will follow.
