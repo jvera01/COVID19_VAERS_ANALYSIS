@@ -1,4 +1,4 @@
-# COVID19 VAERS ANALYSIS
+# COVID19 VAERS ANALYSIS.
 
 <p align="center">
   <img width="950" height="400" src="Resources/B5.PNG">
