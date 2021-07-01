@@ -59,7 +59,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Take a limited list of the most common symptoms, and convert them into numbers
 - Catagorize them based off of which vaccine
 - Find the most dense amount of cases based on age
-- Predict for male/female/other
+- Predict for Male/Female/Other
 
 ## Diagram DBD database structure
 
@@ -79,7 +79,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 ## Rules & Expectations 
 
 
-- Rule # 1 Teamwork makes the dream works
+- Rule # 1 Teamwork makes the dream work
 - Rule # 2 Team meetings will be scheduled, and invitations will follow.
 - Rule # 3 Team Participation is required 
 - Rule # 4 Team members must ask for help when stuck on an individual task.
