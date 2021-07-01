@@ -1,8 +1,10 @@
-# COVID19_VAERS_ANALYSIS
+# COVID19 VAERS ANALYSIS
 
-![](Resources/B5.PNG)
+<p align="center">
+  <img width="950" height="400" src="Resources/B5.PNG">
+</p>
 
-# Overview of the COVID19 VAERS_ANALYSIS
+ # Overview
 
 ## Purpose - Background & Reason for topic selection
 
@@ -25,7 +27,10 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 
 
 ## Data Description - VAERS Data
-![](Resources/B2.PNG)
+
+<p align="center">
+  <img width="950" height="400" src="Resources/B2.PNG">
+</p>
 
 We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program or by using the CDC WONDER online search tool. Information provided to VAERS that identifies a person who received the vaccine or vaccines will not be available to the public. De-identified VAERS data are available 4-6 weeks after the report is received. VAERS data change as new reports are received, so your results may change if you repeat the same search at a later date. 
 
@@ -37,14 +42,19 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 
 ## Resources - The technologies used for this project includes:
-![](Resources/DataTech.jpeg)
 
-- Python & Pandas library
-- Pg Admin PostgresSQL
+<p align="center">
+  <img width="950" height="400" src="Resources/DataTech.jpeg">
+</p>
+
+- Tableau Public  
 - Machine Learning Algorithm – Scikit-Learn
-- Tableau Public
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg" alt="PostgreSQL" width="21px" height="21px"> PostgreSQL
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"> Python 
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/pandas-icon.svg" alt="pandas" width="21px" height="21px"> Pandas library
 
 ## Machine Learning Classification:
+
 - Predict Risk Factors the chances of a patient to get (X) symptoms for (Y) Vaccine
 - Take a limited list of the most common symptoms, and convert them into numbers
 - Catagorize them based off of which vaccine
@@ -53,9 +63,11 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 ## Diagram DBD database structure
 
-![](Resources/COVID_VAERS_ ERDs.png)
+<p align="center">
+  <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/COVID_VAERS_%20ERDs.png">
+</p>
 
-## Team Members - Rules and Expectations:
+## Team Members:
 
 - Anna Stack
 - Dakota Dusold
@@ -64,7 +76,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Jesus M Vera
 - Justin Livingston
 
-## Rules & Expectations - Description of the communication protocols 
+## Rules & Expectations 
 
 
 - Rule # 1 Teamwork makes the dream works
@@ -74,4 +86,3 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Rule # 5 Team members will complete the task on time for review and approval
 - Rule # 6 Team members must inform if the task will be completed late.
 - Rule # 7 Team members must inform if an emergency presents itself and the team needs to complete the task.
-
