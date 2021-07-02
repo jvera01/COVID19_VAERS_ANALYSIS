@@ -1,15 +1,10 @@
 # COVID-19 VAERS ANALYSIS
 
-
 <p align="center">
   <img width="950" height="400" src="Resources/B5.PNG">
 </p>
 
-<p align="center">
-  <img width="950" height="400" src="Resources/B5.PNG">
-</p>
-
- # Overview
+# Overview
 
 ## Purpose - Background & Topic Selection Reasoning
 
@@ -30,31 +25,6 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 9. Hospitalization because of vaccination(?)
 10. Number of life-threatening Symptoms 
 
-
-## Data Description - VAERS Data
-
-# Overview
-
-## Purpose - Background & Reason for topic selection
-
-US Citizens are concerned about the risk factors of taking the COVID19 Vaccines. We are playing the role of a team of data scientists hired by the government to analyze and assess the risk factors of taking a covid vaccine. The outcome of the analysis is to help citizens make a more informed decision when taking the vaccine. We will use vaccine adverse event data provided by the government from the [Vaccine Adverse Event Reporting System.](https://vaers.hhs.gov/)
-
-We will analyze and assess risk factors of taking the COVID19 Vaccine. We will determine the risk factors using adverse events based on age and gender to predict life-threatening risk probability using a Machine Learning Classification Model. 
-
-## The Analisys will answer the following questions:
-
-1. Total Number of Adverse Events by Vaccines
-2. Total Number of Deaths by Vaccines
-3. Total Number of Hospitalizations by Vaccines
-4. Total Number of life-threatening Symptoms by Vaccines
-5. Death vs. adverse events based on vaccine type/age/gender
-6. Symptom vs. adverse events based on vaccine type/age/gender
-7. Time of death after Vaccine
-8. Number of deaths after vaccine
-9. Hospitalization because of vaccination(?)
-10. Number of life-threatening Symptoms 
-
-
 ## Data Description - VAERS Data
 
 <p align="center">
@@ -68,12 +38,6 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
   -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389323 rows and 8 columns of vaccines information.
   -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503422 rows and 11 columns of patient symptoms information. 
   -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376300 rows and 35 columns of patient detail information. 
-  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389323 rows and 8 columns of vacinnes infomation.
-  -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503422 rows and 11 columns of patient symptoms information. 
-  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376300 rows and 35 columms of patient detail information. 
-
-
-
 
 ## Resources - The technologies used for this project includes:
 
@@ -81,11 +45,11 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
   <img width="950" height="400" src="Resources/DataTech.jpeg">
 </p>
 
-- <img src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/brain.svg" alt="Machine_Learning" width="21px" height="21px"> Machine Learning Algorithm – Scikit-Learn
-- <img src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/icons8-tableau-software.svg" alt="Tableau" width="21px" height="21px"> Tableau Public  
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg" alt="PostgreSQL" width="21px" height="21px"> PostgreSQL
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"> Python 
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/pandas-icon.svg" alt="pandas" width="21px" height="21px"> Pandas library
+- <img src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/brain.svg" alt="Machine_Learning" width="21px" height="21px"> Machine Learning Algorithm – Scikit-Learn
+- <img src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/icons8-tableau-software.svg" alt="Tableau" width="21px" height="21px"> Tableau Public  
 
 ## Machine Learning Classification:
 
