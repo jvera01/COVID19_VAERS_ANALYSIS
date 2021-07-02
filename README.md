@@ -48,8 +48,8 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
   <img width="950" height="400" src="Resources/DataTech.jpeg">
 </p>
 
-- <img src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/icons8-tableau-software.svg" alt="Tableau" width="21px" height="21px"> Tableau Public  
 - Machine Learning Algorithm – Scikit-Learn
+- <img src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/icons8-tableau-software.svg" alt="Tableau" width="21px" height="21px"> Tableau Public  
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg" alt="PostgreSQL" width="21px" height="21px"> PostgreSQL
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"> Python 
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/pandas-icon.svg" alt="pandas" width="21px" height="21px"> Pandas library
