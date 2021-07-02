@@ -1,4 +1,4 @@
-# COVID19 VAERS ANALYSIS
+# COVID-19 VAERS ANALYSIS
 
 
 <p align="center">
@@ -7,13 +7,13 @@
 
  # Overview
 
-## Purpose - Background & Reason for topic selection
+## Purpose - Background & Topic Selection Reasoning
 
-US Citizens are concerned about the risk factors of taking the COVID19 Vaccines. We are playing the role of a team of data scientists hired by the government to analyze and assess the risk factors of taking a covid vaccine. The outcome of the analysis is to help citizens make a more informed decision when taking the vaccine. We will use vaccine adverse event data provided by the government from the [Vaccine Adverse Event Reporting System.](https://vaers.hhs.gov/)
+US Citizens are concerned about the risk factors of taking the COVID-19 Vaccines. We are playing the role of a team of data scientists hired by the government to analyze and assess the risk factors of receiving one of the three Emergency-Use Authorized COVID-19 vaccines. The outcome of the analysis is to help citizens make a more informed decision when taking the vaccine. We will use vaccine adverse event data provided by the government from the [Vaccine Adverse Event Reporting System.](https://vaers.hhs.gov/)
 
 We will analyze and assess risk factors of taking the COVID19 Vaccine. We will determine the risk factors using adverse events based on age and gender to predict life-threatening risk probability using a Machine Learning Classification Model. 
 
-## The Analisys will answer the following questions:
+## Questions to Answer Based on this Data:
 
 1. Total Number of Adverse Events by Vaccines
 2. Total Number of Deaths by Vaccines
@@ -36,9 +36,9 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program or by using the CDC WONDER online search tool. Information provided to VAERS that identifies a person who received the vaccine or vaccines will not be available to the public. De-identified VAERS data are available 4-6 weeks after the report is received. VAERS data change as new reports are received, so your results may change if you repeat the same search at a later date. 
 
 - The data selected has three CSV files. We obtained the data from [Vaccine Adverse Event Reporting System.](https://vaers.hhs.gov/). 
-  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389323 rows and 8 columns of vacinnes infomation.
+  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389323 rows and 8 columns of vaccines information.
   -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503422 rows and 11 columns of patient symptoms information. 
-  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376300 rows and 35 columms of patient detail information. 
+  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376300 rows and 35 columns of patient detail information. 
 
 
 
