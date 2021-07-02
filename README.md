@@ -72,7 +72,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 - Anna Stack
 - Dakota Dusold
-- Daniel Gandia
+- Daniel Gandía
 - Hira Ayub
 - Jesus M Vera
 - Justin Livingston
