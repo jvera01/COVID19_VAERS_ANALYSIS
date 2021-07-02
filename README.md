@@ -63,7 +63,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 ## Diagram DBD database structure
 
 <p align="center">
-  <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/COVID_VAERS_%20ERDs.png">
+  <img width="560" height="500" src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/COVID_VAERS_%20ERDs.png">
 </p>
 
 ## Team Members:
