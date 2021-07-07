@@ -1,7 +1,7 @@
 # COVID-19 VAERS ANALYSIS
 
 <p align="center">
-  <img width="950" height="400" src="Resources/B5.PNG">
+  <img width="950" height="400" src="Resources/Images/B5.PNG">
 </p>
 
 # Overview
@@ -28,7 +28,7 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 ## Data Description - VAERS Data
 
 <p align="center">
-  <img width="950" height="400" src="Resources/B2.PNG">
+  <img width="950" height="400" src="Resources/Images/B2.PNG">
 </p>
 
 We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessible by downloading raw data in comma-separated value (CSV) files for import into a database, spreadsheet, or text editing program or by using the CDC WONDER online search tool. Information provided to VAERS that identifies a person who received the vaccine or vaccines will not be available to the public. De-identified VAERS data are available 4-6 weeks after the report is received. VAERS data change as new reports are received, so your results may change if you repeat the same search at a later date. 
@@ -42,7 +42,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 ## Resources - The technologies used for this project includes:
 
 <p align="center">
-  <img width="950" height="400" src="Resources/DataTech.jpeg">
+  <img width="950" height="400" src="Resources/Images/DataTech.jpeg">
 </p>
 
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg" alt="PostgreSQL" width="21px" height="21px"> PostgreSQL
@@ -63,7 +63,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 ## Diagram DBD database structure
 
 <p align="center">
-  <img width="560" height="500" src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/COVID_VAERS_%20ERDs.png">
+  <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/COVID_VAERS_%20ERDs.png">
 </p>
 
 ## Team Members:
