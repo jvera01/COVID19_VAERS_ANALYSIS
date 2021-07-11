@@ -12,7 +12,7 @@ US Citizens are concerned about the risk factors of taking the COVID-19 Vaccines
 
 We will analyze and assess risk factors of taking the COVID19 Vaccine. We will determine the risk factors using adverse events based on age and gender to predict life-threatening risk probability using a Machine Learning Classification Model. 
 
-## Questions to Answer Based on this Data:
+## Questions to Answer Based on this Data: [View Tableau - COVID-19 VAERS ANALYSIS](https://public.tableau.com/app/profile/lionshield.insurance.agency.corp./viz/COVID-19VAERSANALYSIS/COVID-19VAERSANALYSIS)
 
 1. Total Number of Adverse Events by Vaccines
 2. Total Number of Deaths by Vaccines
