@@ -12,7 +12,7 @@ US Citizens are concerned about the risk factors of taking the COVID-19 Vaccines
 
 We will analyze and assess risk factors of taking the COVID19 Vaccine. We will determine the risk factors using adverse events based on age and gender to predict life-threatening risk probability using a Machine Learning Classification Model. 
 
-## Questions to Answer Based on this Data:
+## Questions to Answer Based on this Data: [View Tableau - COVID-19 VAERS ANALYSIS](https://public.tableau.com/app/profile/lionshield.insurance.agency.corp./viz/COVID-19VAERSANALYSIS/COVID-19VAERSANALYSIS)
 
 1. Total Number of Adverse Events by Vaccines
 2. Total Number of Deaths by Vaccines
@@ -38,6 +38,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
   -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389323 rows and 8 columns of vaccines information.
   -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503422 rows and 11 columns of patient symptoms information. 
   -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376300 rows and 35 columns of patient detail information. 
+- [VAERS DATA USE GUIDE.](https://vaers.hhs.gov/docs/VAERSDataUseGuide_November2020.pdf)
 
 ## Resources - The technologies used for this project includes:
 
@@ -63,7 +64,9 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 ## Diagram DBD database structure
 
 <p align="center">
+
   <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.png">
+  <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/Images/COVID_VAERS_ERDs.png">
 </p>
 
 ## Team Members:
