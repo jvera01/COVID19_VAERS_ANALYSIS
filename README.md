@@ -64,6 +64,8 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 ## Diagram DBD database structure
 
 <p align="center">
+
+  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.png">
   <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/Images/COVID_VAERS_ERDs.png">
 </p>
 
@@ -86,3 +88,13 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Rule # 5 Team members will complete the task on time for review and approval
 - Rule # 6 Team members must inform if the task will be completed late.
 - Rule # 7 Team members must inform if an emergency presents itself and the team needs to complete the task.
+
+## Covid-19 VAERS Analysis Project Presentation.
+
+<p align="Left">
+<h2>
+
+[Presentation in Google Slide.](https://docs.google.com/presentation/d/e/2PACX-1vRiCvTFR6L8sFyxoEoADQ13ViT7dQJ9pPHQ5hpucSoV3fQHMJClQNkpvhKSxDZ_yozUTUaizYWZnPSR/pub?start=true&loop=false&delayms=30000)
+
+</h2>
+</p>
