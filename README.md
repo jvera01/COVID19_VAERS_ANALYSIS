@@ -52,14 +52,14 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - <img src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/brain.svg" alt="Machine_Learning" width="21px" height="21px"> Machine Learning Algorithm – Scikit-Learn
 - <img src="https://github.com/jvera01/COVID19_VAERS_ANALYSIS/blob/main/Resources/icons8-tableau-software.svg" alt="Tableau" width="21px" height="21px"> Tableau Public  
 
-## Machine Learning Classification:
+## Machine Learning Model: Random Forest Classifier
 
+- We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning model.
 - Predict Risk Factors the chances of a patient to get (X) symptoms for (Y) Vaccine
-- Take a limited list of the most common symptoms, and convert them into numbers
-- Catagorize them based off of which vaccine
+- Using OneHotEncoder, we will take a list of the most common symptoms, and convert them into numbers
+- Classify vaccine manufacturer based on age, sex, and adverse symptoms.
 - Find the most dense amount of cases based on age
 - Predict for Male/Female/Other
-- Predict for male/female/other
 
 ## Diagram DBD database structure
 
