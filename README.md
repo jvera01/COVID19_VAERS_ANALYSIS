@@ -70,7 +70,11 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 </p>
 
 - The COVID-19 VAERS Analysis Database will be hosted locally and can run using PostgreSQL in PgAdmin (Instructions Below)
-- **IMPORTANT** You will need to run your own instance in PgAdmin using the conection string provided in the SQL_DB_Connection.ipynb. Make sure to update the 'your password' section in the Config.py file with your actual password and run the code in SQL_Tables.sql.
+- **IMPORTANT** You will need to run your own instance in PgAdmin using the connection string provided.
+  1. Find connection string in SQL_DB_Connection.ipynb. 
+  2. Make sure to update the 'your password' section in the Config.py file with your actual password
+  3. Name your SQL DataBase COVID19_VAERS_Analysis
+  4. Run the code in SQL_Tables.sql.
 
 
 ## Team Members:
