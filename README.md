@@ -65,7 +65,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 <p align="center">
 
-  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.png">
+  
   <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/Images/COVID_VAERS_ERDs.png">
 </p>
 
