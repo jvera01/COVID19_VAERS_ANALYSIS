@@ -69,6 +69,9 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
   <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/Images/COVID_VAERS_ERDs.png">
 </p>
 
+- Our final DataBase will be stored as an SQL Database in PostgreSQL using PgAdmin.
+- **IMPORTANT** You will need to make your own instance within PgAdmin and run the code in the SQL_Tables.sql file in the query tool to create the DataBase tables. Update your password within the Config.py file and use the SQL connection string within the SQL_DB_Connection.ipynb file.
+
 ## Team Members:
 
 - Anna Stack
