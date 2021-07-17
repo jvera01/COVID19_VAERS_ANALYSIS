@@ -93,7 +93,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Rule # 2 Team meetings will be scheduled, and invitations will follow.
 - Rule # 3 Team Participation is required.
 - Rule # 4 Team members must ask for help when stuck on an individual task.
-- Rule # 5 Team members will complete the task on time for review and approval
+- Rule # 5 Team members will complete the task on time for review and approval.
 - Rule # 6 Team members must inform if the task will be completed late.
 - Rule # 7 Team members must inform if an emergency presents itself and the team needs to complete the task.
 
