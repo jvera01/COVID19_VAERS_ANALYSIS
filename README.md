@@ -35,9 +35,9 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 - The data selected has three CSV files. We obtained the data from [Vaccine Adverse Event Reporting System.](https://vaers.hhs.gov/). 
 
-  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389323 rows and 8 columns of vaccines information.
-  -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503422 rows and 11 columns of patient symptoms information. 
-  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376300 rows and 35 columns of patient detail information. 
+  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389,323 rows and 8 columns of vaccines information.
+  -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503,422 rows and 11 columns of patient symptoms information. 
+  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376,300 rows and 35 columns of patient detail information. 
 - [VAERS DATA USE GUIDE.](https://vaers.hhs.gov/docs/VAERSDataUseGuide_November2020.pdf)
 
 ## Resources - The technologies used for this project includes:
@@ -52,22 +52,32 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - <img src="Resources/Images/brain.svg" alt="Machine_Learning" width="21px" height="21px"> Machine Learning Algorithm – Scikit-Learn
 - <img src="Resources/Images/icons8-tableau-software.svg" alt="Tableau" width="21px" height="21px"> Tableau Public  
 
-## Machine Learning Classification:
+## Machine Learning Model: Random Forest Classifier
 
+- We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning model.
 - Predict Risk Factors the chances of a patient to get (X) symptoms for (Y) Vaccine
-- Take a limited list of the most common symptoms, and convert them into numbers
-- Catagorize them based off of which vaccine
+- Using OneHotEncoder, we will take a list of the most common symptoms, and convert them into numbers
+- Classify vaccine manufacturer based on age, sex, and adverse symptoms.
 - Find the most dense amount of cases based on age
 - Predict for Male/Female/Other
-- Predict for male/female/other
 
 ## Diagram DBD database structure
 
 <p align="center">
+ 
+  <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/Images/COVID_VAERS_ERDs.png">
 
-  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.png">
   
+
 </p>
+
+- The COVID-19 VAERS Analysis Database will be hosted locally and can run using PostgreSQL in PgAdmin (Instructions Below)
+- **IMPORTANT** You will need to run your own instance in PgAdmin using the connection string provided.
+  1. Find connection string in SQL_DB_Connection.ipynb. 
+  2. Make sure to update the 'your password' section in the Config.py file with your actual password
+  3. Name your SQL DataBase COVID19_VAERS_Analysis
+  4. Run the code in SQL_Tables.sql.
+
 
 ## Team Members:
 
@@ -83,9 +93,9 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 - Rule # 1 Teamwork makes the dream work.
 - Rule # 2 Team meetings will be scheduled, and invitations will follow.
-- Rule # 3 Team Participation is required
+- Rule # 3 Team Participation is required.
 - Rule # 4 Team members must ask for help when stuck on an individual task.
-- Rule # 5 Team members will complete the task on time for review and approval
+- Rule # 5 Team members will complete the task on time for review and approval.
 - Rule # 6 Team members must inform if the task will be completed late.
 - Rule # 7 Team members must inform if an emergency presents itself and the team needs to complete the task.
 
