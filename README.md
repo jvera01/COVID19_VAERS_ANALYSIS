@@ -35,9 +35,9 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 - The data selected has three CSV files. We obtained the data from [Vaccine Adverse Event Reporting System.](https://vaers.hhs.gov/). 
 
-  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389323 rows and 8 columns of vaccines information.
-  -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503422 rows and 11 columns of patient symptoms information. 
-  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376300 rows and 35 columns of patient detail information. 
+  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389,323 rows and 8 columns of vaccines information.
+  -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503,422 rows and 11 columns of patient symptoms information. 
+  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376,300 rows and 35 columns of patient detail information. 
 - [VAERS DATA USE GUIDE.](https://vaers.hhs.gov/docs/VAERSDataUseGuide_November2020.pdf)
 
 ## Resources - The technologies used for this project includes:
@@ -65,12 +65,25 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 <p align="center">
 
+
   
+
+ 
+
   <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/Images/COVID_VAERS_ERDs.png">
+
+  
+
 </p>
 
 - The COVID-19 VAERS Analysis Database will be hosted locally and can run using PostgreSQL in PgAdmin (Instructions Below)
+
 - **IMPORTANT** You will need to run your own instance in PgAdmin using the conection string provided in the SQL_DB_Connection.ipynb. Make sure to update the 'your password' section in the Config.py file with your actual password and run the code in SQL_Tables.sql.
+  1. Find connection string in SQL_DB_Connection.ipynb. 
+  2. Make sure to update the 'your password' section in the Config.py file with your actual password
+  3. Name your SQL DataBase COVID19_VAERS_Analysis
+  4. Run the code in SQL_Tables.sql.
+
 
 
 ## Team Members:
@@ -87,9 +100,9 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 - Rule # 1 Teamwork makes the dream work.
 - Rule # 2 Team meetings will be scheduled, and invitations will follow.
-- Rule # 3 Team Participation is required
+- Rule # 3 Team Participation is required.
 - Rule # 4 Team members must ask for help when stuck on an individual task.
-- Rule # 5 Team members will complete the task on time for review and approval
+- Rule # 5 Team members will complete the task on time for review and approval.
 - Rule # 6 Team members must inform if the task will be completed late.
 - Rule # 7 Team members must inform if an emergency presents itself and the team needs to complete the task.
 
