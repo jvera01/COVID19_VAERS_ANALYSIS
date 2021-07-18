@@ -52,22 +52,26 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - <img src="Resources/Images/brain.svg" alt="Machine_Learning" width="21px" height="21px"> Machine Learning Algorithm – Scikit-Learn
 - <img src="Resources/Images/icons8-tableau-software.svg" alt="Tableau" width="21px" height="21px"> Tableau Public  
 
-## Machine Learning Classification:
+## Machine Learning Model: Random Forest Classifier
 
+- We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning model.
 - Predict Risk Factors the chances of a patient to get (X) symptoms for (Y) Vaccine
-- Take a limited list of the most common symptoms, and convert them into numbers
-- Catagorize them based off of which vaccine
+- Using OneHotEncoder, we will take a list of the most common symptoms, and convert them into numbers
+- Classify vaccine manufacturer based on age, sex, and adverse symptoms.
 - Find the most dense amount of cases based on age
 - Predict for Male/Female/Other
-- Predict for male/female/other
 
 ## Diagram DBD database structure
 
 <p align="center">
 
-  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.png">
+  
   <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/Images/COVID_VAERS_ERDs.png">
 </p>
+
+- The COVID-19 VAERS Analysis Database will be hosted locally and can run using PostgreSQL in PgAdmin (Instructions Below)
+- **IMPORTANT** You will need to run your own instance in PgAdmin using the conection string provided in the SQL_DB_Connection.ipynb. Make sure to update the 'your password' section in the Config.py file with your actual password and run the code in SQL_Tables.sql.
+
 
 ## Team Members:
 
