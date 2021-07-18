@@ -12,6 +12,8 @@ US Citizens are concerned about the risk factors of taking the COVID-19 Vaccines
 
 We will analyze and assess risk factors of taking the COVID19 Vaccine. We will determine the risk factors using adverse events based on age and gender to predict life-threatening risk probability using a Machine Learning Classification Model. 
 
+---
+
 ## Questions to Answer Based on this Data: [View Tableau - COVID-19 VAERS ANALYSIS](https://public.tableau.com/app/profile/lionshield.insurance.agency.corp./viz/COVID-19VAERSANALYSIS/COVID-19VAERSANALYSIS)
 
 1. Total Number of Adverse Events by Vaccines
@@ -22,8 +24,10 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 6. Symptom vs. adverse events based on vaccine type/age/gender
 7. Time of death after Vaccine
 8. Number of deaths after vaccine
-9. Hospitalization because of vaccination(?)
+9. Hospitalization after vaccination
 10. Number of life-threatening Symptoms 
+
+---
 
 ## Data Description - VAERS Data
 
@@ -40,6 +44,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
   -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376,300 rows and 35 columns of patient detail information. 
 - [VAERS DATA USE GUIDE.](https://vaers.hhs.gov/docs/VAERSDataUseGuide_November2020.pdf)
 
+----
 ## Resources - The technologies used for this project includes:
 
 <p align="center">
@@ -52,14 +57,28 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - <img src="Resources/Images/brain.svg" alt="Machine_Learning" width="21px" height="21px"> Machine Learning Algorithm – Scikit-Learn
 - <img src="Resources/Images/icons8-tableau-software.svg" alt="Tableau" width="21px" height="21px"> Tableau Public  
 
+---
+
 ## Machine Learning Model: Random Forest Classifier
 
-- We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning model.
-- Predict Risk Factors the chances of a patient to get (X) symptoms for (Y) Vaccine
-- Using OneHotEncoder, we will take a list of the most common symptoms, and convert them into numbers
-- Classify vaccine manufacturer based on age, sex, and adverse symptoms.
-- Find the most dense amount of cases based on age
-- Predict for Male/Female/Other
+We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning model, to predict life-threatening events caused by each Covid-19 vaccine.
+
+### Preliminary Data Preprocessing:
+- Using LabelEncoder, we will take a list of the symptoms that were found from patients with life threatening events, and convert them each into unique numbers
+- Using StandardScaler, we use it to remove the mean and scaling to unit variance
+
+### Preliminary Feature Engineering and Selection:
+
+- We added SelectFromModel to our machine learning model so we could select features based on importance weights.
+
+### Training and Testing:
+- Applying the Train_Test_Split method, it uses arrays or matrices into random train and test subsets to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
+
+### Model:
+- We used RandomForestClassifier, an estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. Even though multiclass-multioutput is not supported, it was the best option because of reduced variance from combining diverse trees
+
+
+---
 
 ## Diagram DBD database structure
 
@@ -84,7 +103,7 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
   3. Name your SQL DataBase COVID19_VAERS_Analysis
   4. Run the code in SQL_Tables.sql.
 
-
+---
 
 ## Team Members:
 
@@ -94,6 +113,8 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Hira Ayub
 - Jesus M Vera
 - Justin Livingston
+
+---
 
 ## Rules & Expectations 
 
@@ -105,6 +126,8 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 - Rule # 5 Team members will complete the task on time for review and approval.
 - Rule # 6 Team members must inform if the task will be completed late.
 - Rule # 7 Team members must inform if an emergency presents itself and the team needs to complete the task.
+
+---
 
 ## Covid-19 VAERS Analysis Project Presentation.
 
