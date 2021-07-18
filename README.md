@@ -35,9 +35,9 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 - The data selected has three CSV files. We obtained the data from [Vaccine Adverse Event Reporting System.](https://vaers.hhs.gov/). 
 
-  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389323 rows and 8 columns of vaccines information.
-  -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503422 rows and 11 columns of patient symptoms information. 
-  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376300 rows and 35 columns of patient detail information. 
+  -   Data file # 1 - 2021VAERSVAX - The CSV file contains 389,323 rows and 8 columns of vaccines information.
+  -   Data file # 2 - 2021VAERSSYMPTOMS - The CSV file contains 503,422 rows and 11 columns of patient symptoms information. 
+  -   Data file # 3 - 2021VAERSDATA - The CSV File comtains 376,300 rows and 35 columns of patient detail information. 
 - [VAERS DATA USE GUIDE.](https://vaers.hhs.gov/docs/VAERSDataUseGuide_November2020.pdf)
 
 ## Resources - The technologies used for this project includes:
@@ -91,9 +91,9 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 - Rule # 1 Teamwork makes the dream work.
 - Rule # 2 Team meetings will be scheduled, and invitations will follow.
-- Rule # 3 Team Participation is required
+- Rule # 3 Team Participation is required.
 - Rule # 4 Team members must ask for help when stuck on an individual task.
-- Rule # 5 Team members will complete the task on time for review and approval
+- Rule # 5 Team members will complete the task on time for review and approval.
 - Rule # 6 Team members must inform if the task will be completed late.
 - Rule # 7 Team members must inform if an emergency presents itself and the team needs to complete the task.
 
