@@ -20,11 +20,11 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 2. Total Number of Deaths by Vaccines
 3. Total Number of Hospitalizations by Vaccines
 4. Total Number of life-threatening Symptoms by Vaccines
-5. Death vs. adverse events based on vaccine type/age/gender
-6. Symptom vs. adverse events based on vaccine type/age/gender
-7. Time of death after Vaccine
-8. Number of deaths after vaccine
-9. Hospitalization after vaccination
+5. Death vs. Adverse events based on Vaccine Type/Age/Gender
+6. Symptom vs. Adverse events based on Vaccine Type/Age/Gender
+7. Time of Death after Vaccine
+8. Number of Deaths after Vaccine
+9. Hospitalization after Vaccination
 10. Number of life-threatening Symptoms 
 
 ---
