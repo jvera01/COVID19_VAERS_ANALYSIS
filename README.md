@@ -20,11 +20,11 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 2. Total Number of Deaths by Vaccines
 3. Total Number of Hospitalizations by Vaccines
 4. Total Number of life-threatening Symptoms by Vaccines
-5. Death vs. Adverse events based on Vaccine Type/Age/Gender
-6. Symptom vs. Adverse events based on Vaccine Type/Age/Gender
-7. Time of Death after Vaccine
-8. Number of Deaths after Vaccine
-9. Hospitalization after Vaccination
+5. Death vs. adverse events based on vaccine type/age/gender
+6. Symptom vs. adverse events based on vaccine type/age/gender
+7. Time of death after Vaccine
+8. Number of deaths after vaccine
+9. Hospitalization after vaccination
 10. Number of life-threatening Symptoms 
 
 ---
@@ -64,8 +64,8 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning model, to predict life-threatening events caused by each Covid-19 vaccine.
 
 ### Preliminary Data Preprocessing:
-- Using LabelEncoder, we will take a list of the symptoms that were found from patients with life threatening events, and convert them each into unique numbers.
-- Using StandardScaler, we use it to remove the mean and scaling to unit variance.
+- Using LabelEncoder, we will take a list of the symptoms that were found from patients with life threatening events, and convert them each into unique numbers
+- Using StandardScaler, we use it to remove the mean and scaling to unit variance
 
 ### Preliminary Feature Engineering and Selection:
 
@@ -75,7 +75,7 @@ We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning mode
 - Applying the Train_Test_Split method, it uses arrays or matrices into random train and test subsets to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
 
 ### Model:
-- We used RandomForestClassifier, an estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. Even though multiclass-multioutput is not supported, it was the best option because of reduced variance from combining diverse trees.
+- We used RandomForestClassifier, an estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. Even though multiclass-multioutput is not supported, it was the best option because of reduced variance from combining diverse trees
 
 
 ---
@@ -99,8 +99,8 @@ We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning mode
 
 - **IMPORTANT** You will need to run your own instance in PgAdmin using the conection string provided in the SQL_DB_Connection.ipynb. Make sure to update the 'your password' section in the Config.py file with your actual password and run the code in SQL_Tables.sql.
   1. Find connection string in SQL_DB_Connection.ipynb. 
-  2. Make sure to update the 'your password' section in the Config.py file with your actual password.
-  3. Name your SQL DataBase COVID19_VAERS_Analysis.
+  2. Make sure to update the 'your password' section in the Config.py file with your actual password
+  3. Name your SQL DataBase COVID19_VAERS_Analysis
   4. Run the code in SQL_Tables.sql.
 
 ---
