@@ -99,7 +99,7 @@ We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning mode
 
  
 
-  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.PNG">
+  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.png">
 
   
 
