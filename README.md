@@ -16,16 +16,12 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 
 ## Questions to Answer Based on this Data: [View Tableau - COVID-19 VAERS ANALYSIS](https://public.tableau.com/app/profile/lionshield.insurance.agency.corp./viz/COVID-19VAERSANALYSIS/COVID-19VAERSANALYSIS)
 
-1. Total Number of Adverse Events by Vaccines
-2. Total Number of Deaths by Vaccines
-3. Total Number of Hospitalizations by Vaccines
-4. Total Number of life-threatening Symptoms by Vaccines
-5. Death vs. adverse events based on vaccine type/age/gender
-6. Symptom vs. adverse events based on vaccine type/age/gender
-7. Time of death after Vaccine
-8. Number of deaths after vaccine
-9. Hospitalization after vaccination
-10. Number of life-threatening Symptoms 
+- Total Number of Adverse Events by Vaccines
+- Total Number of Disable and Deaths caused by a vaccine
+- Total Number of ER and Hospitalizations caused by a vaccine
+- Total Number of life-threatening Symptoms caused by a vaccine
+- Total Number of ER Visits by State
+- Totla Number of Adverse Events by State
 
 ---
 
