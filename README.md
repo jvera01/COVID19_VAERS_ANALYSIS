@@ -93,8 +93,9 @@ We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning mode
 ## Diagram DBD database structure
 
 <p align="center">
-  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.PNG">
+  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.png">
 </p>
+
 
 - The COVID-19 VAERS Analysis Database will be hosted locally and can run using PostgreSQL in PgAdmin (Instructions Below)
 
