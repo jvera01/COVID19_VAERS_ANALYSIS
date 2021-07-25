@@ -16,14 +16,19 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 
 ## Questions to Answer Based on this Data: [View Tableau - COVID-19 VAERS ANALYSIS](https://public.tableau.com/app/profile/lionshield.insurance.agency.corp./viz/COVID-19VAERSANALYSIS/COVID-19VAERSANALYSIS)
 
-- Total Number of Adverse Events by Vaccines
-- Total Number of Disable and Deaths caused by a vaccine
-- Total Number of ER and Hospitalizations caused by a vaccine
-- Total Number of life-threatening Symptoms caused by a vaccine
-- Total Number of ER Visits by State
-- Totla Number of Adverse Events by State
+## Machine Learning:
 
----
+•	Predicting life-threatening adverse events for people over 60 years old.
+
+## Tableau:
+
+•	What are the top negative symptoms experienced by these vaccines?
+
+•	Comparison of three vaccines and their reported adverse events?
+
+•	Is there a difference in the number of ER Visits or Life-Threatening events amongst the three vaccines?
+
+•	Is there a difference in the number of those disabled or fatalities caused by the three vaccines?
 
 ## Data Description - VAERS Data
 
@@ -94,7 +99,7 @@ We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning mode
 
  
 
-  <img width="560" height="500" src="https://github.com/hira-ayub/COVID19_VAERS_ANALYSIS/blob/main/Resources/Images/COVID_VAERS_ERDs.png">
+  <img width="560" height="500" src="Resources/Images/COVID_VAERS_ERDs.PNG">
 
   
 
