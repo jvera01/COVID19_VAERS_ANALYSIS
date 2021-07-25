@@ -10,7 +10,7 @@
 
 US Citizens are concerned about the risk factors of taking the COVID-19 Vaccines. We are playing the role of a team of data scientists hired by the government to analyze and assess the risk factors of receiving one of the three Emergency-Use Authorized COVID-19 vaccines. The outcome of the analysis is to help citizens make a more informed decision when taking the vaccine. We will use vaccine adverse event data provided by the government from the [Vaccine Adverse Event Reporting System.](https://vaers.hhs.gov/)
 
-We will analyze and assess risk factors of taking the COVID19 Vaccine. We will determine the risk factors using adverse events based on age and gender to predict life-threatening risk probability using a Machine Learning Classification Model. 
+We will analyze and assess risk factors of taking the COVID19 Vaccine. We will determine the risk factors using adverse events based on age to predict life-threatening risk probability using a Machine Learning Classification Model. 
 
 ---
 
@@ -20,11 +20,11 @@ We will analyze and assess risk factors of taking the COVID19 Vaccine. We will d
 2. Total Number of Deaths by Vaccines
 3. Total Number of Hospitalizations by Vaccines
 4. Total Number of life-threatening Symptoms by Vaccines
-5. Death vs. Adverse events based on Vaccine Type/Age/Gender
-6. Symptom vs. Adverse events based on Vaccine Type/Age/Gender
-7. Time of Death after Vaccine
-8. Number of Deaths after Vaccine
-9. Hospitalization after Vaccination
+5. Death vs. adverse events based on vaccine type/age/gender
+6. Symptom vs. adverse events based on vaccine type/age/gender
+7. Time of death after Vaccine
+8. Number of deaths after vaccine
+9. Hospitalization after vaccination
 10. Number of life-threatening Symptoms 
 
 ---
@@ -61,21 +61,30 @@ We will be analyzing COVID19 Vaccines Adverse events. The VAERS data is accessib
 
 ## Machine Learning Model: Random Forest Classifier
 
-We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning model, to predict life-threatening events caused by each Covid-19 vaccine.
+We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning model, to predict life-threatening events for people over the age of 60. Originally, we looked into predicting life-threatening events for people who either died, or were hospitalized but the data was too skewed to produce any usable results. The type of data provided ultimately led to this model and process. 
 
 ### Preliminary Data Preprocessing:
 - Using LabelEncoder, we will take a list of the symptoms that were found from patients with life threatening events, and convert them each into unique numbers.
+- After that, we use OneHotEncoder to encode the other categorical features as an array.
 - Using StandardScaler, we use it to remove the mean and scaling to unit variance.
 
 ### Preliminary Feature Engineering and Selection:
 
-- We added SelectFromModel to our machine learning model so we could select features based on importance weights.
+- For our feature selection, we went with a plotly bar graph to show feature importance of the top 15 columns. We decided to use this over the SelectFromModel feature because it was visually easier to read and gave us the different levels of the least important columns.
 
 ### Training and Testing:
-- Applying the Train_Test_Split method, it uses arrays or matrices into random train and test subsets to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
+- Applying the Train_Test_Split method, it uses arrays or matrices into random train and test subsets to input data into a single call for splitting (and optionally subsampling) data in a one-liner. At this time, there is no need for additional training of this model.
 
 ### Model:
-- We used RandomForestClassifier, an estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. Even though multiclass-multioutput is not supported, it was the best option because of reduced variance from combining diverse trees.
+- We used RandomForestClassifier, an estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. Even though multiclass-multioutput is not supported, it was the best option because of reduced variance from combining diverse trees
+
+### Accuracy Score:
+- As of right now, the random forest predictive accuracy is 77%. With the dataset narrowed down to ids that only contained life-threatening symptoms, it is predicting the chance of these symptoms to happen to people over the age of 60.
+
+### Conclusion:
+- We were able to predict life-threatening events for people over the age of 60 by narrowing down to a DataFrame containing ID's that only had those filtered symptoms. There are further changes we can try, by doing slight adjustments to our model. We could run the prediction for each gender over 60, or even predict for each Covid-19 vaccine.
+
+
 
 
 ---
@@ -99,8 +108,8 @@ We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning mode
 
 - **IMPORTANT** You will need to run your own instance in PgAdmin using the conection string provided in the SQL_DB_Connection.ipynb. Make sure to update the 'your password' section in the Config.py file with your actual password and run the code in SQL_Tables.sql.
   1. Find connection string in SQL_DB_Connection.ipynb. 
-  2. Make sure to update the 'your password' section in the Config.py file with your actual password.
-  3. Name your SQL DataBase COVID19_VAERS_Analysis.
+  2. Make sure to update the 'your password' section in the Config.py file with your actual password
+  3. Name your SQL DataBase COVID19_VAERS_Analysis
   4. Run the code in SQL_Tables.sql.
 
 ---
