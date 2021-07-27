@@ -79,7 +79,7 @@ We will utilize Scikit-Learn's RandomForestClassifier, an ensemble learning mode
 - We used RandomForestClassifier, an estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. Even though multiclass-multioutput is not supported, it was the best option because of reduced variance from combining diverse trees
 
 ### Accuracy Score:
-- As of right now, the random forest predictive accuracy is 77%. With the dataset narrowed down to ids that only contained life-threatening symptoms, it is predicting the chance of these symptoms to happen to people over the age of 60.
+- As of right now, the random forest predictive accuracy is 72%. With the dataset narrowed down to ids that only contained life-threatening symptoms, it is predicting the chance of these symptoms to happen to people over the age of 60.
 
 ### Conclusion:
 - We were able to predict life-threatening events for people over the age of 60 by narrowing down to a DataFrame containing ID's that only had those filtered symptoms. There are further changes we can try, by doing slight adjustments to our model. We could run the prediction for each gender over 60, or even predict for each Covid-19 vaccine.
