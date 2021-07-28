@@ -1,4 +1,4 @@
--- used clean_vaers_data.csv do import into VAERSData Table
+-- Using clean_Vaers_data.csv to import into below table after created.
 
 CREATE TABLE VAERSData (
 	VAERS_ID INT,
@@ -21,7 +21,7 @@ CREATE TABLE VAERSData (
 DROP TABLE VAERSData;
 DROP TABLE VAERS_VAX_Symptoms;
 
--- used VAERS_VAX_Symptoms.csv do import into VAERS_VAX_Symptoms Table
+-- Using VAERS_Vax_Symptoms.csv to import into below table after created.
 
 CREATE TABLE VAERS_VAX_Symptoms (
 	VAERS_ID INT,
