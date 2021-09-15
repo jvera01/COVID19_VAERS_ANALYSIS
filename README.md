@@ -4,7 +4,7 @@
   <img width="950" height="400" src="Resources/Images/B5.PNG">
 </p>
 
-# Overview
+# Overview --
 
 ## Purpose - Background & Topic Selection Reasoning
 
